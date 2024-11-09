@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 25px;
+    margin-top: 25px;
+}
+.card-header h4{
+    color: #cb0eff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 15px;
+}
+.card-header i{
+    color: #ff0ebc;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.card-header a{
+    text-align: center;
+    color: #ff0e41;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+label{
+    color: #0cbcff;
+    font-weight: bold;
+}
+thead h4{
+    text-align: center;
+    color: #ffca09;
+    font-weight: bold;
+}
+.thead{
+    border: 5px solid #ff510b;
+}
+#criar{
+    font-size: 20px;
+    color: #12ffd1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#editar{
+    font-size: 20px;
+    color: #12ffd1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#excluir{
+    font-size: 20px;
+    color: #12ffd1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#botoes{
+    background: #ff758f;
+}
+#botoes a{
+    margin-bottom:20px;
+    margin-right:15px;
+}
+#botoes button{
+    margin-bottom:20px;
+    margin-left:15px;
+}
+.data{
+    font-size: 20px;
+    color: #fadde1;
+    margin-top:15px;
+}
+#nome{
+    font-size: 20px;
+    padding: 10px;
+    color: #ff0a54;
+}
+#cabecalho{
+    background: #ff4d6d;
+    color: #fff0f3;
+}
+#rodape{
+    background: #ff758f;
+}
+#tarefas {
+    width: 100%;                /* Ajuste a largura do contêiner conforme necessário */
+    display: flex;             /* Flexbox para alinhar os itens */
+    flex-direction: row;       /* Organiza os cards na horizontal */
+    gap: 30px;                 /* Espaçamento entre os cards */
+    padding: 30px;
+    flex-wrap: wrap;           /* Permite que os cards que não cabem na linha seguinte "quebrem" para a linha de baixo */
+}
+
+.card {
+    flex:300px;           
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-width: 200px;        
+}
+#descricao{
+    font-size: 20px;
+    color: #000;
+    margin-left: 15px;
+    margin-right: 15px;
+}
