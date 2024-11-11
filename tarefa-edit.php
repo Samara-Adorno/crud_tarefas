@@ -81,9 +81,9 @@ if (!isset($_GET['id'])) {
             <div class="mb-3">
                 <label for="txtStatus" class="form-label">Status:</label>
                 <select class="form-select" name="txtStatus" id="txtStatus" required>
-                    <option value="0" <?php echo ($tarefa['status'] == 1) ? 'selected' : ''; ?>>Pendente</option>
-                    <option value="1" <?php echo ($tarefa['status'] == 2) ? 'selected' : ''; ?>>Em Execução ...</option>
-                    <option value="2" <?php echo ($tarefa['status'] == 3) ? 'selected' : ''; ?>>Concluída !</option>
+                    <option value="0" <?php echo ($tarefa['status'] == 0) ? 'selected' : ''; ?>>Pendente</option>
+                    <option value="1" <?php echo ($tarefa['status'] == 1) ? 'selected' : ''; ?>>Em Execução ...</option>
+                    <option value="2" <?php echo ($tarefa['status'] == 2) ? 'selected' : ''; ?>>Concluída !</option>
                 </select>
             </div>
 
