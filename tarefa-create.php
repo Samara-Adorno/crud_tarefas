@@ -43,9 +43,9 @@
                                 <label for="txtStatus">Status</label>
                                 <select class="form-select" name="txtStatus" aria-label="Default select example">
                                 <option selected>Status</option>
-                                <option value="0" type="button" class="btn btn-danger">Pendente</option>
-                                <option value="1" type="button" class="btn btn-warning">Em Execução</option>
-                                <option value="2" type="button" class="btn btn-success">Concluído</option>
+                               <option value="0" type="button" class="btn btn-danger">Pendente</option>
+                                <option value="1" type="button" class="btn btn-warning">Em Execução ...</option>
+                                <option value="2" type="button" class="btn btn-success">Concluída !</option>
                                 </select>
                             </div>
                             <div class="mb-3"></div>
