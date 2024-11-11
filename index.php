@@ -65,7 +65,7 @@ h4{
                                                     } elseif ($tarefa['status'] == 2) {
                                                         echo '<button type="button" class="btn btn-success"><i class="bi bi-clipboard2-check"></i> Concluída !</button>';
                                                     } else {
-                                                        echo '<button type="button" class="btn btn-secondary"><i class="bi bi-exclamation-triangle-fill"></i> Indefinido</button>';
+                                                        echo '<button type="button" class="btn btn-secondary"><i class="bi bi-exclamation-triangle-fill"></i> Indefinida</button>';
                                                     }
                                         ?>
                                         </p>
