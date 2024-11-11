@@ -63,7 +63,7 @@ h4{
                                                     } elseif ($tarefa['status'] == 1) {
                                                         echo '<button type="button" class="btn btn-warning"><i class="bi bi-arrow-repeat"></i> Em execução ...</button>' ;
                                                     } elseif ($tarefa['status'] == 2) {
-                                                        echo '<button type="button" class="btn btn-success"><i class="bi bi-clipboard2-check"></i> Concluído !</button>';
+                                                        echo '<button type="button" class="btn btn-success"><i class="bi bi-clipboard2-check"></i> Concluída !</button>';
                                                     } else {
                                                         echo '<button type="button" class="btn btn-secondary"><i class="bi bi-exclamation-triangle-fill"></i> Indefinido</button>';
                                                     }
